@@ -27,7 +27,7 @@ class Shoes extends Prodotto
     }
     public function getSpecifics()
     {
-        return $this->genere . " " . $this->sesso . " " . $this->numero . " " . $this->colore . " " . $this->prezzo;
+        return "Allenamento: " . $this->genere . "<br>" . "Sesso: " . $this->sesso . "<br>" . "Numero: " . $this->numero . "<br>" . "Colore: " . $this->colore . "<br>" . "Prezzo: " . $this->prezzo . " €";
     }
 
 }

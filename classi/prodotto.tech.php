@@ -27,7 +27,7 @@ class Tech extends Prodotto
     }
     public function getSpecifics()
     {
-        return $this->genere . " " . $this->sesso . " " . $this->numero . " " . $this->colore . " " . $this->prezzo;
+        return "Materiale cinturino: " . $this->materiale . "<br>" . "Dimensioni display: " . $this->display . "<br>" . "Durata batteria: " . $this->batteria . "<br>" . "GPS: " . $this->gps . "<br>" . "Prezzo: " . $this->prezzo . " €";
     }
 }
 
